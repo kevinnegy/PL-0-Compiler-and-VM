@@ -1,0 +1,9 @@
+PL/0 Compiler and Virtual Machine
+_______________________________
+Compiler PL/0 code into PM/0 code. The virtual machine takes PM/0 code, executes the instructions and prints the stack at each instruction.
+
+To run:
+./compile test.txt pm0.txt
+
+./vm pm0.txt 
+
